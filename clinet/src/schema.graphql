@@ -1,7 +1,5 @@
 
-type Query {
-  test: String
-}
+
 scalar Date
 
 type Query {

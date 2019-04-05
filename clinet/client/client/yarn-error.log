@@ -1,0 +1,38 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\yonanonymous\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js --registry=https://registry.npm.taobao.org --disturl=https://npm.taobao.org/dist
+
+PATH: 
+  D:\AcrossExpress\clinet\client\client\node_modules\.bin;D:\AcrossExpress\clinet\client\node_modules\.bin;D:\AcrossExpress\clinet\node_modules\.bin;D:\AcrossExpress\node_modules\.bin;D:\node_modules\.bin;C:\Program Files\nodejs;C:\app\yonas\product\12.1.0\dbhome_1\bin;C:\ProgramData\Anaconda2;C:\ProgramData\Anaconda2\Library\mingw-w64\bin;C:\ProgramData\Anaconda2\Library\usr\bin;C:\ProgramData\Anaconda2\Library\bin;C:\ProgramData\Anaconda2\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\MongoDB\Server\3.4\bin;C:\gradle-4.5.1-all\gradle-4.5.1\bin;C:\Program Files (x86)\Brackets\command;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Go\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Users\yonanonymous\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\yonanonymous\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\yonanonymous\AppData\Local\Programs\Python\Python37-32\;C:\Users\yonanonymous\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\xampp\php;C:\Users\yonanonymous\AppData\Local\GitHubDesktop\bin;C:\Users\yonanonymous\go\bin;C:\flutter\bin;C:\Users\yonanonymous\AppData\Roaming\npm;C:\Users\yonanonymous\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  11.4.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 114.55.80.225:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+
+npm manifest: 
+  {
+    "name": "client",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+      "@vue/cli-plugin-typescript": "^3.5.0",
+      "@vue/cli-plugin-pwa": "^3.5.0",
+      "@vue/cli-plugin-unit-mocha": "^3.5.0",
+      "@vue/cli-plugin-e2e-cypress": "^3.5.0",
+      "@vue/cli-service": "^3.5.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
