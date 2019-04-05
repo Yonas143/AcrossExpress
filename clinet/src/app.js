@@ -1,4 +1,3 @@
-// server/src/app.js
 const { GraphQLServer } = require('graphql-yoga')
 const mongoose = require('mongoose')
 require('dotenv').config()
@@ -12,7 +11,7 @@ db.once("open", function(callback){
 })
 
 const server = new GraphQLServer({
-  typeDefs: 'src/schema.graphql',
+  typeDefs: './src/schema.graphql',
   resolvers,
   context: req => req,
 })
